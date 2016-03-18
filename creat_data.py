@@ -1,5 +1,6 @@
 #!/usr/bin/env python2.7
 # coding=utf-8
+# The code is used to get M pairs of chemical reactions from Mongo database. Each chemical name is limited by len of N
 
 from __future__ import print_function
 import pymongo
