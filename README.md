@@ -12,4 +12,5 @@ $ ./create_datasets 1 100000
 To generate 10K chemical reactions with 50k real reactions and 50k fake reactions. Then a file train_reactions_100000.json will be generated and then can be used for baseline model as well as the LSTM model to train the chemical vector and predict the reaction. 
 
 $ mkdir performance
+
 $ ./neural.py train_reactions_100000.json
